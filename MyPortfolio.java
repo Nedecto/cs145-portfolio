@@ -27,10 +27,7 @@ class MyPortfolio {
      * the screen on one line.
      */	
 	static void printIntegerList(int[] values) {
-        String[] = n;
-        n = values.toString();
         
-        System.out.println();
       
 
 	}
@@ -41,6 +38,16 @@ class MyPortfolio {
      * ORDER to the screen on one line.
      */	
 	static void printIntegerListReversed(int[] values) {
+        int[] something = values;
+        int[] another;
+        for(int i = 20; i > -1; i--) {
+            another = something[i]; 
+
+
+            
+
+        }
+
 
 	}
 
