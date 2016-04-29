@@ -11,24 +11,24 @@ class PortfolioApp {
 
 	public static void main(String[] args) {
 		String n = MyPortfolio.getFirstName();
-		System.out.println("<==== Welcome " + n + " ====>");
+		System.out.println("<==== Hello " + n + " ====>");
 
 	/*********************************************************************/
-		System.out.println("Printing integer list ==> ");
+		System.out.println("Printing a list of numbers ==> ");
 		MyPortfolio.printIntegerList(num_list);
 		
 		System.out.println("\n\n");
 
 	/*********************************************************************/
 		
-		System.out.println("Printing integer list in reverse order ==> ");
+		System.out.println("Printing the list of numbers in reverse order ==> ");
 		MyPortfolio.printIntegerListReversed(num_list);
 
 		System.out.println("\n\n");
 
 	/*********************************************************************/
 		
-		System.out.println("Swapping left with right ==> ");
+		System.out.println("Swapping right with left ==> ");
 		char result = MyPortfolio.swapLeftWithRight(left, right);
 
 		if (result == 'z') {
@@ -42,7 +42,7 @@ class PortfolioApp {
 
 	/*********************************************************************/
 
-		System.out.println("Swapping first with last ==> ");
+		System.out.println("Swapping last and first ==> ");
 		int[] values = MyPortfolio.swapFirstWithLast(num_list);
 
 		if (values[0] == 77 && values[values.length-1] == 7) {
